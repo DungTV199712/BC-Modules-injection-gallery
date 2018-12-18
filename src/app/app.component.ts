@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { NgModule } from '@angular/core';
-@NgModule()
+// import { AuthService } from './auth.service';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  // title = 'modules-injection';
+  title = 'ngmodule-dependency-injection';
+  // constructor(public authService: AuthService) {}
 }
